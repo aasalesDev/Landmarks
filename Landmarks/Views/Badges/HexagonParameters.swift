@@ -5,7 +5,6 @@
 //  Created by Anderson Sales on 02/05/23.
 //
 
-import Foundation
 import CoreGraphics
 
 struct HexagonParameters {
@@ -14,9 +13,8 @@ struct HexagonParameters {
         let curve: CGPoint
         let control: CGPoint
     }
-    
+
     static let adjustment: CGFloat = 0.085
-    
     static let segments = [
         Segment(
             line:    CGPoint(x: 0.60, y: 0.05),
